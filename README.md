@@ -1,43 +1,23 @@
-# Orchids SWE Intern Challenge Template
+# 🌸 Orchids Website Cloner
 
-This project consists of a backend built with FastAPI and a frontend built with Next.js and TypeScript.
+This is my submission for the Orchids SWE Intern Challenge. It is a full-stack web application that clones the visual structure of public websites using GPT-4.
 
-## Backend
+---
 
-The backend uses `uv` for package management.
+## 🛠 Tech Stack
 
-### Installation
+- **Frontend**: Next.js + TypeScript
+- **Backend**: FastAPI (Python 3.11+)
+- **LLM**: OpenAI GPT-4 (via openai-python v1+)
 
-To install the backend dependencies, run the following command in the backend project directory:
+---
 
-```bash
-uv sync
-```
+## 🚀 How to Run
 
-### Running the Backend
-
-To run the backend development server, use the following command:
+### 1. Backend Setup
 
 ```bash
-uv run fastapi dev
-```
-
-## Frontend
-
-The frontend is built with Next.js and TypeScript.
-
-### Installation
-
-To install the frontend dependencies, navigate to the frontend project directory and run:
-
-```bash
-npm install
-```
-
-### Running the Frontend
-
-To start the frontend development server, run:
-
-```bash
-npm run dev
-```
+cd backend
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
